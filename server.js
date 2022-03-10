@@ -58,7 +58,7 @@ app.get('/api/candidate/:id', (req, res) => {
       return;
     }
     res.json({
-      message: 'success',
+      message: 'Success',
       data: row
     });
   });
